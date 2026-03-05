@@ -44,6 +44,11 @@ setup(
         'wheel_odometry = my_robot_controller.wheel_odometry:main',
         'lidar_simulator = my_robot_controller.lidar_simulator:main',
         'static_transform_publisher = my_robot_controller.static_transform_publisher:main',
+        'odometry_error_demo = my_robot_controller.odometry_error_demo:main',
+        'calibration_helper = my_robot_controller.calibration_helper:main',
+        'slip_detector = my_robot_controller.slip_detector:main',
+        'sensor_fusion = my_robot_controller.sensor_fusion:main',
+        'robot_tf_broadcaster = my_robot_controller.robot_tf_broadcaster:main',
         ],
     },
 )
