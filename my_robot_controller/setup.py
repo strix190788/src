@@ -49,6 +49,8 @@ setup(
         'slip_detector = my_robot_controller.slip_detector:main',
         'sensor_fusion = my_robot_controller.sensor_fusion:main',
         'robot_tf_broadcaster = my_robot_controller.robot_tf_broadcaster:main',
+        'lidar_room_simulator = my_robot_controller.lidar_room_simulator:main',
+        'lidar_processor = my_robot_controller.lidar_processor:main',
         ],
     },
 )
