@@ -51,6 +51,7 @@ setup(
         'robot_tf_broadcaster = my_robot_controller.robot_tf_broadcaster:main',
         'lidar_room_simulator = my_robot_controller.lidar_room_simulator:main',
         'lidar_processor = my_robot_controller.lidar_processor:main',
+        'slam_world_simulator = my_robot_controller.slam_world_simulator:main',
         ],
     },
 )
