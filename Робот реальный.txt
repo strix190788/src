@@ -1,0 +1,16 @@
+ssh robomarvel@rbm-xx.local
+ssh robomarvel@192.168.137.42
+password robomarvel
+cd robomarvel
+docker compose up -d
+docker exec -it ros tmux
+make build
+source install/setup.sh
+ros2 launch main main.yaml
+
+
+Установка юпитера???
+python3 -m venv venv --system-site-packages
+source venv/bin/activate
+pip install jupyterlab
+jupyter lab --allow-root --ip=0.0.0.0 --port=8080 --no-browser --ServerApp.token='' --ServerApp.password=''
