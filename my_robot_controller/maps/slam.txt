@@ -1,0 +1,2 @@
+response:
+slam_toolbox.srv.SaveMap_Response(result=1)

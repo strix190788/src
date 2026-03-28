@@ -8,3 +8,13 @@ ros2 run foxglove_bridge foxglove_bridge \
 
 
 ros2 topic echo /odom/wheel --once 
+
+Запуск slam с установленными параметрами. Запускать из отдельной cmd строки.
+Появляется топик \map
+ros2 launch slam_toolbox online_async_launch.py \
+  slam_params_file:=~ros2_ws/src/my_robot_controller/my_robot_controller/config/slam_toolbox_params.yaml    
+  
+  
+  не сработало
+ros2 launch my_nav2_config navigation.launch.py \
+	nav2_params_file:=~ros2_ws/src/my_nav2_config/config/nav2_params.yaml
