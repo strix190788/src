@@ -3,13 +3,13 @@
 <package format="3">
   <name>my_nodes</name>
   <version>0.0.0</version>
-  <description>Мои ноды для кураса Yandex</description>
+  <description>Мои ноды для курса Robomarvel</description>
   <maintainer email="student@todo.todo">student</maintainer>
   <license>MIT</license>
 
   <depend>rclpy</depend>
   <depend>std_msgs</depend>
-  
+  <depend>sensor_msgs</depend>
 
   <test_depend>ament_copyright</test_depend>
   <test_depend>ament_flake8</test_depend>

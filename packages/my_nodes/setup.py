@@ -15,7 +15,7 @@ setup(
     zip_safe=True,
     maintainer='student',
     maintainer_email='student@todo.todo',
-    description='Мои ноды для кураса Yandex',
+    description='Мои ноды для курса Robomarvel',
     license='MIT',
     extras_require={
         'test': [
@@ -28,6 +28,8 @@ setup(
             'talker = my_nodes.talker:main',
             'listener = my_nodes.listener:main',
             'battery_guard = my_nodes.battery_guard:main',
+            'trip_meter = my_nodes.trip_meter:main',
+            'gyro_yaw = my_nodes.gyro_yaw:main',
         ],
     },
 )
